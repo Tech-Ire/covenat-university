@@ -281,7 +281,7 @@ h1 {
 
 .course p {
     color: #a3a3a3;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 300;
     padding: 10px;
     line-height: 22px;
@@ -447,7 +447,7 @@ h1 {
 
 .cta {
     margin: 100px auto;
-    width: 80%;
+    width: 90%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../eduford_img/banner2.jpg );
     background-position: center;
     background-size: cover;
@@ -460,7 +460,7 @@ h1 {
     color: #fff;
     margin-bottom: 40px;
     padding: 0;
-    font-size: 3.7rem;
+    font-size: 2rem;
 }
 
 /* --------------------footer--------------------------*/
