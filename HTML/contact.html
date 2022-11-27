@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website design</title>
+    <link rel="stylesheet" href=" ../CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="../eduford_img/logo.png" alt=""></a>
+
+            <div class="nav-links" id="navlinks">
+                <ul>
+                    <div class="close">
+                        <img style="width: 30px;background-color: transparent;" src="../eduford_img/close icon.PNG"
+                            alt="" onclick="hideMenu()">
+                    </div>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html   ">ABOUT</a></li>
+                    <li><a href="./course.html">COURSE</a></li>
+                    <li><a href="./blog.html">BLOG</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="open">
+                <img style="width: 50px;" src="../eduford_img/bar.PNG" onclick="showMenu()" alt="">
+            </div>
+        </nav>
+
+        <h1>Contact Us</h1>
+    </section>
+
+    <!-- ----------contact us-------------->
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4372.046855966226!2d5.137506637183313!3d7.307035608467893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1047894972021f41%3A0xd84c4e01abf1d646!2sFederal%20University%20of%20Technology%20Akure!5e0!3m2!1sen!2sng!4v1669000979910!5m2!1sen!2sng"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!-- ------------Footer-------------->
+    
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-home" ></i>
+                    <h5>XYZ Road,ABC Building</h5> 
+                    <p>Bangalore,karnataka,IN</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <h5>+1 0123456789</h5> 
+                    <p>Monday to Saturday,10Am to 6pm</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i> 
+                    <h5>info@AJ-STYLES.com</h5>
+                    <p>Email us your query</p>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="./form-header.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="Email" name="email" placeholder="Enter email adress" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea  rows="8" placeholder="Message"required></textarea>
+                    <button type="submit" name="message" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>                    
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, temporibus. ipsum dolor, sit amet
+            consectetur adipisicing elit . <br> Iure ipsam saepe animi quod. Consequatur ipsam
+            culpa totam illo, vel quisquam!</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook" style="color: blue;"></i>
+                <i class="fa-brands fa-twitter"style="color: skyblue;"></i>
+                <i class="fa-brands fa-linkedin" style="color: rgb(205, 205, 157);"></i>
+                <i class="fa-brands fa-instagram" style="color: brown;"></i>
+            </div>
+           <p>Made with  <i class="fa-solid fa-heart"></i> by AJ-STYLES </p>
+    </section>
+    <!-- --------javascript in toggle---------- -->
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
